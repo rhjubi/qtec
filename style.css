@@ -1,0 +1,282 @@
+.hed1
+{
+	background: #FFE2D6;
+	color: orangered;
+	padding: 2px;
+}
+.upper-head
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.left1
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left1 h5
+{
+	font-size: 12px;
+}
+.right1
+{
+	display: flex;
+}
+.right1 h5
+{
+	margin: 0 15px;
+	font-size: 12px;
+	font-weight: 500;
+}
+.right1 a
+{
+	font-size: 12px;
+	text-decoration: none;
+	color: orange;
+	font-weight: 500;
+}
+.right1 a:hover
+{
+	color: orangered;
+}
+.leftside div ul
+{
+	margin: 0;
+	padding: 0;
+}
+.leftside div ul li
+{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+.leftside div ul li a
+{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+.leftside div ul li a:hover
+{
+	color: black;
+}
+.leftside div ul li i
+{
+	font-size: 12px;
+}
+.leftside div ul li.active a,.button-area ul li.active a
+{
+	color: orangered;
+}
+.leftside div ul li.active i
+{
+	color: orangered;
+}
+.button-area
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.button-area ul
+{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.button-area ul li
+{
+	margin-right: 20px;
+}
+.button-area ul li a
+{
+	color: black;
+	font-size: 13px;
+	text-decoration: none;
+	font-weight: 500;
+}
+.location
+{
+	font-size: 12px;
+	color: orangered;
+}
+.location-selector
+{
+	border: none;
+	background: none;
+	position: relative;
+	outline: none;
+	color: orangered;
+	font-size: 12px;
+	font-weight: 500;
+}
+.location-selector:hover
+{
+	cursor: pointer;
+}
+.search-area
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.search
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.search input
+{
+	padding: 6px 400px 6px 20px;
+	font-size: 8px;
+	border-radius: 20px 0 0 20px;
+	border: .5px solid orangered;
+	outline: none;
+}
+.search i
+{
+	background: orangered;
+	color: white;
+	border-radius: 0 20px 20px 0;
+	padding: 7px 15px;
+	font-size: 12px;
+	font-weight: 0;
+}
+.icon_middle
+{
+	margin-left: 10px;
+}
+.icon_middle i
+{
+	font-size: 12px;
+	margin-left: 10px;
+}
+.icon_middle span {
+    display:block;
+    font-size: 8px;
+    font-weight: 500;
+}
+.c-head
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	height: 25px;
+	border: none;
+	outline: none;
+	background: #EFEFEF;
+	font-weight: 500;
+}
+.c-head2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+}
+.c-head2 i
+{
+	margin-right: 5px;
+}
+.c-head a
+{
+	color: #E96125;
+	text-decoration: none;
+	font-size: 12px;
+}
+.c-head a:hover
+{
+	color: black;
+}
+.card-body
+{
+	background: #FCFCFC;
+}
+.card-body p
+{
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+.time
+{
+	font-size: 12px;
+	font-weight: 500;
+}
+.time option
+{
+	background: orangered;
+	color: black;
+}
+.checkout
+{
+	background: #E96125;
+	border: none;
+	outline: none;
+	position: relative;
+	left: 35%;
+	margin: 25px 0;
+	padding: 5px 40px;
+	color: white;
+	font-weight: 500;
+	border-radius: 20px;
+}
+.text
+{
+	font-size: 10px;
+	color: grey;
+}
+.cl p
+{
+	color: orangered;
+	margin-left: 5px;
+}
+.text h5
+{
+	color: orangered;
+	margin-right: 10px;
+}
+.product-image
+{
+	height: 50px;
+	width: 50px;
+}
+.c-head3
+{
+	background: rebeccapurple;
+}
+.offer-code-area
+{
+	background: #EEEEEE;
+	margin-top: 80px;
+	font-weight: 500;
+	height: 30px;
+	padding: 5px;
+	color: black;
+}
+.tota
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 991px)
+{
+	.leftside
+	{
+		display: none;
+	}
+	.logo-icon
+	{
+		display: block;
+	}
+}
